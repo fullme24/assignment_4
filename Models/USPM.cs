@@ -8,6 +8,8 @@ namespace assignment_4.Models
 {
     public class USPM
     {
+
+        //basic model for user's imput
         [Required]
         public string Name { get; set; }
         [Required]

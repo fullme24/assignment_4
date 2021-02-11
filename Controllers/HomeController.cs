@@ -1,4 +1,9 @@
-﻿using assignment_4.Models;
+﻿/*
+ * Name: True
+ * The following is the brain of this operation. It helps to direct the data to the right places and to make sure it is correct
+ */
+
+using assignment_4.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace assignment_4.Models
 {
+    //Used to make a list of user suggestion objects
     public class USM
     {
         private static List<USPM> user_suggestions = new List<USPM>();

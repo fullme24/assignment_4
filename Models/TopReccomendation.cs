@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ * This code helps to create a list for the top recomendations that will be featured on the home page
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
