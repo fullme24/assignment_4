@@ -1,0 +1,60 @@
+﻿@{
+}
+@model assignment_4.Models.USPM
+
+<div class="text-center lav rounded-circle">
+    <h1>Welcome</h1>
+    <p>Please enter any Restaurant!</p>
+</div>
+
+<br />
+<br />
+<br />
+
+<div class="lav rounded text-center">
+    <h2 class="display-4"><smaller>User Recommendation</smaller></h2>
+
+    <br />
+    <br />
+
+    <form asp-action="USP" method="post">
+        <label for="Name">
+            User's Name
+        </label>
+        <input id="Name" asp-for="Name" />
+
+        <br />
+
+        <label for="Restaurant_Name">
+            Restaurant's Name
+        </label>
+        <input id="Restaurant_Name" asp-for="Restaurant_Name" />
+
+        <br />
+
+        <label for="Favorite_Dish">
+            User's Favorite Dish
+        </label>
+        <input id="Favorite_Dish" asp-for="Favorite_Dish" />
+
+        <br />
+
+        <label for="Phone">
+            Phone
+        </label>
+        <input id="Phone" asp-for="Phone" />
+
+        <br />
+        <br />
+
+        <button type="submit">
+            Save
+        </button>
+
+        <div asp-validation-summary="All"></div>
+    </form>
+
+    <br />
+</div>
+
+

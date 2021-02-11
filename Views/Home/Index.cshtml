@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<string>
+
+<div class="text-center lav rounded-pill">
+    <h1 >Welcome</h1>
+    <p>Learn about all the best food in your area!</p>
+</div>
+
+<br />
+<br />
+<br />
+
+<div class="lav rounded text-center">
+    <h2 class="display-4"><smaller>Top Recommendations</smaller></h2>
+    
+    <ul class="list-unstyled">
+        @foreach(string tr in Model)
+        {
+            <li>
+                @Html.Raw(tr)
+            </li>
+            <br />
+        }
+    </ul>
+</div>
